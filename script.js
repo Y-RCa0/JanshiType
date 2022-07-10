@@ -1,4 +1,8 @@
-// 数値を入力して判定ボタンをクリックすると、条件に合った内容の特定のp要素(最初はvisibility: hidden;で非表示)をvisibility: visible;で出現させたい。現状として、どうしてもinput要素内の入力値を取得できず、undefinedやNaNが返ってきてしまう。クリックイベントは動作しているが、
+
+/* 数値を入力して判定ボタンをクリックすると、条件に合った内容の特定のp要素(最初はvisibility: hidden;で非表示)をvisibility: visible;で出現させたい。
+現状として、どうしてもinput要素内の入力値を取得できず、undefinedやNaNが返ってきてしまう。クリックイベントは動作しているが、入力値が取得できないためif文の中の処理が正しく
+されているかどうかも不明 */
+
 const form =　document.querySelector(".form");
 const input01 = document.getElementsByClassName("input01");
 const input02 = document.getElementsByClassName("input02");
